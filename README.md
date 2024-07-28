@@ -1,6 +1,9 @@
 **Overview** <br />
 A Synchronous FIFO buffer is a critical component in digital circuits used for temporary data storage, ensuring data is written and read in the same order. This project implements a Synchronous FIFO using Icarus Verilog and provides multiple testbenches to validate the design.
 
+![image](https://github.com/user-attachments/assets/8dae9d0c-85f4-40b0-83c7-025938d8cb7b)
+
+
 **Features**  <br />
 Implementation of Synchronous FIFO.
 Multiple testbenches to validate functionality and corner cases.
