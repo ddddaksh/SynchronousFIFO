@@ -1,0 +1,234 @@
+$date
+	Sun Jul 14 00:37:40 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module t_synchronous_fifo $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var wire 8 # data_out [7:0] $end
+$var parameter 32 $ DATA_WIDTH $end
+$var parameter 32 % DEPTH $end
+$var reg 1 & clk $end
+$var reg 8 ' data_in [7:0] $end
+$var reg 1 ( r_en $end
+$var reg 1 ) rst_n $end
+$var reg 1 * w_en $end
+$var integer 32 + i [31:0] $end
+$scope module s_fifo $end
+$var wire 1 & clk $end
+$var wire 1 ! full $end
+$var wire 8 , in [7:0] $end
+$var wire 1 ( read_en $end
+$var wire 1 ) reset_n $end
+$var wire 1 * write_en $end
+$var wire 1 " empty $end
+$var parameter 32 - DATA_WIDTH $end
+$var parameter 32 . DEPTH $end
+$var parameter 32 / ptr_width $end
+$var reg 8 0 out [7:0] $end
+$var reg 4 1 read_ptr [3:0] $end
+$var reg 4 2 write_ptr [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 /
+b1000 .
+b1000 -
+b1000 %
+b1000 $
+$end
+#0
+$dumpvars
+bx 2
+bx 1
+bx 0
+b0 ,
+bx +
+0*
+0)
+0(
+b0 '
+0&
+bx #
+x"
+x!
+$end
+#5
+0!
+b0 #
+b0 0
+1"
+b0 1
+b0 2
+1&
+#10
+0&
+#15
+0"
+b1 2
+b1 '
+b1 ,
+1*
+1&
+b1 +
+1)
+#20
+0&
+#25
+b10 2
+b10 +
+b10 '
+b10 ,
+1&
+#30
+0&
+#35
+b11 2
+b11 +
+b11 '
+b11 ,
+1&
+#40
+0&
+#45
+b100 2
+b100 +
+b100 '
+b100 ,
+1&
+#50
+0&
+#55
+b101 2
+b101 +
+b101 '
+b101 ,
+1&
+#60
+0&
+#65
+b110 2
+b110 +
+b110 '
+b110 ,
+1&
+#70
+0&
+#75
+b111 2
+b111 +
+b111 '
+b111 ,
+1&
+#80
+0&
+#85
+1!
+b1000 2
+0*
+b1000 +
+b1000 '
+b1000 ,
+1&
+#90
+0&
+#95
+1&
+#100
+0&
+b0 +
+#105
+0!
+b1 1
+b1 #
+b1 0
+1(
+1&
+#106
+b1 +
+#110
+0&
+#115
+b10 1
+1&
+#116
+b10 +
+#120
+0&
+#125
+b11 1
+b11 #
+b11 0
+1&
+#126
+b11 +
+#130
+0&
+#135
+b100 1
+1&
+#136
+b100 +
+#140
+0&
+#145
+b101 1
+b101 #
+b101 0
+1&
+#146
+b101 +
+#150
+0&
+#155
+b110 1
+1&
+#156
+b110 +
+#160
+0&
+#165
+b111 1
+b111 #
+b111 0
+1&
+#166
+b111 +
+#170
+0&
+#175
+0!
+1"
+b1000 1
+1&
+#176
+0(
+b1000 +
+#180
+0&
+#185
+1&
+#190
+0&
+#195
+1&
+#200
+0&
+#205
+1&
+#210
+0&
+#215
+1&
+#220
+0&
+#225
+1&
+#226
